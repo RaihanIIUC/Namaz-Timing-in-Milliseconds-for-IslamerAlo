@@ -15,6 +15,9 @@ return new class extends Migration
     {
         Schema::create('namaz_timings', function (Blueprint $table) {
             $table->id();
+            $table->string('year')->nullable();
+            $table->string('month')->nullable();
+            $table->string('তারিখ')->nullable();
             $table->string('ফজর শুরু')->nullable();
             $table->string('ফজর শেষ')->nullable();
             $table->string('জোহর শুরু')->nullable();
