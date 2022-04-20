@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\NamazTimingController;
+use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
